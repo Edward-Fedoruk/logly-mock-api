@@ -12,6 +12,6 @@ app.get("/test-data", (req, res) => {
 	res.send('Some data');
 });
 
-app.listen(80, () => {
+app.listen(8080, () => {
 	console.log("Server is started...");
 });
