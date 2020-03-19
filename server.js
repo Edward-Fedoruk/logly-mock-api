@@ -24,7 +24,7 @@ app.get('/test-status', (req, res) => {
 });
 
 app.get('/test-data', (req, res) => {
-	res.send('Test data!');
+	res.json({ test: true });
 });
 
 app.listen(port, function() {
